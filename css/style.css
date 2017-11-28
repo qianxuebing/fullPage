@@ -14,7 +14,11 @@ a {
 	text-decoration: none;
 	color: #333333;
 }
-
+.clear:after{
+	display: block;
+	content: "";
+	clear: both;
+}
 
 /*菜单*/
 
@@ -1074,7 +1078,302 @@ a {
 	margin: 0 auto;
 	overflow: hidden;
 }
+.pagefive a{
+	color: #00a0e9; 
+	float: left; 
+	position: absolute; 
+	display: inline-block; 
+	white-space: nowrap
+}
+.pagefive a:hover{
+	color: #054b6b ;
+}
 
+.netimg1{
+	left: 139px;
+	top: -240px;
+	-webkit-transition: all 0.5s;	
+}
+.active .netimg1{
+	left: 139px;
+	top: 57px;
+	-webkit-transition: all 1s ease;	
+}
+.netimg2{
+	left: 980px;
+	top: 96px;
+	-webkit-transition: all 0.5s;	
+}
+.active .netimg2{
+	left: 809px;
+	top: 96px;
+	-webkit-transition: all 1s ease;	
+}
+.netimg3{
+	left: -435px;
+	top: 431px;
+	-webkit-transition: all 0.5s;	
+}
+.active .netimg3{
+	left:179px;
+	top: 431px;
+	-webkit-transition: all 1s ease;	
+}
+.netimg4{
+	left: 451px;
+	top: 850px;
+	-webkit-transition: all 0.5s;	
+}
+.active .netimg4{
+	left:451px;
+	top: 267px;
+	-webkit-transition: all 1s ease;	
+}
+
+.pagefive-1 {
+	padding-right: 37px;
+	background: url(../img/num-net.png)  61px 4px no-repeat;
+	left: 19px;
+	top: -240px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-1{
+	left: 19px;
+	top: 56px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-2 {
+	padding-right: 37px;
+	background: url(../img/num-net.png) 78px -101px no-repeat;
+	left: 0px;
+	top: -240px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-2{
+	left: 0px;
+	top: 86px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-3 {
+	padding-right: 37px;
+	background: url(../img/num-net.png) 78px -101px no-repeat;
+	left: 0px;
+	top: -240px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-3{
+	left: 0px;
+	top: 116px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-4 {
+	padding-right: 37px;
+	background: url(../img/num-net.png) 59px -101px no-repeat;
+	left: 19px;
+	top: -240px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-4{
+	left: 19px;
+	top: 146px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-5 {
+	padding-right: 37px;
+	background: url(../img/num-net.png) 133px -198px no-repeat;
+	left: -54px;
+	top: -240px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-5{
+	left: -54px;
+	top: 176px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-6 {
+	padding-right: 37px;
+	background: url(../img/num-net.png) 111px -198px no-repeat;
+	left: -32px;
+	top: -240px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-6{
+	left: -32px;
+	top: 206px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-7 {
+	padding-left: 37px;
+	background: url(../img/num-net.png) 0 -316px no-repeat;
+	left: 980px;
+	top: -1px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-7{
+	left: 449px;
+	top: -1px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-8 {
+	padding-left: 37px;
+	background: url(../img/num-net.png) 0 -439px no-repeat;
+	left: 980px;
+	top: 28px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-8{
+	left: 449px;
+	top: 28px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-9 {
+	padding-left: 37px;
+	background: url(../img/num-net.png)  0 -420px no-repeat;
+	left: 980px;
+	top: 50px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-9{
+	left: 449px;
+	top: 50px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-10 {
+	padding-left: 37px;
+	background: url(../img/num-net.png)  0 -439px no-repeat;
+	left: 980px;
+	top: 116px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-10{
+	left: 449px;
+	top: 116px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-11 {
+	padding-left: 37px;
+	background: url(../img/num-net.png)  0 -439px no-repeat;
+	left: 980px;
+	top: 146px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-11{
+	left: 449px;
+	top: 146px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-12 {
+	padding-left: 37px;
+	background: url(../img/num-net.png) 0 -566px no-repeat;
+	left: 980px;
+	top: 184px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-12{
+	left: 449px;
+	top: 184px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-13{
+	padding-right: 37px;
+	background: url(../img/num-net.png) 132px -708px no-repeat;
+	left: -435px;
+	top: 261px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-13{
+	left: 265px;
+	top: 261px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-14{
+	padding-right: 37px;
+	background: url(../img/num-net.png) 294px -831px no-repeat;
+	left: -435px;
+	top: 291px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-14{
+	left: 103px;
+	top: 291px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-15{
+	padding-right: 37px;
+	background: url(../img/num-net.png) 390px -831px no-repeat;
+	left: -435px;
+	top: 351px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-15{
+	left: 8px;
+	top:351px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-16{
+	padding-right: 37px;
+	background: url(../img/num-net.png)  60px -851px no-repeat;
+	left: -435px;
+	top: 428px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-16{
+	left: 63px;
+	top:428px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-17{
+	padding-right: 37px;
+	background: url(../img/num-net.png)  60px -851px no-repeat;
+	left: -435px;
+	top: 458px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-17{
+	left: 63px;
+	top:458px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-18{
+	padding-left: 50px;
+	background: url(../img/num-net.png)   2px -963px no-repeat;
+	left: 449px;
+	top: 1140px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-18{
+	left: 449px;
+	top: 578px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-19{
+	padding-left: 50px;
+	background: url(../img/num-net.png)   2px -1079px no-repeat;
+	left: 449px;
+	top: 1140px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-19{
+	left: 449px;
+	top: 608px;
+	-webkit-transition: all 1s ease;
+}
+.pagefive-20{
+	padding-left: 50px;
+	background: url(../img/num-net.png)   2px -1079px no-repeat;
+	left: 449px;
+	top: 1140px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefive-20{
+	left: 449px;
+	top: 638px;
+	-webkit-transition: all 1s ease;
+}
 
 /*第六页*/
 
@@ -1083,9 +1382,33 @@ a {
 }
 
 .pagesix {
-	width: 980px;
-	height: 850px;
-	position: relative;
+	text-align: left;
+}
+.cooperation{
+	width: 880px; 
+	height: 273px; 
 	margin: 0 auto;
-	overflow: hidden;
+}
+.pagesix h2{
+	position: relative;
+	left: 28px; 
+	width: 880px; 
+	margin: 0 auto 20px; 
+	font: 500 30px "微软雅黑"; 
+	color: #856B37;
+}
+.cooperation a{
+	display: none; 
+	float: left; 
+	margin: 0 0 10px 28px;
+}
+.foot { 
+	margin-top: 100px; 
+	line-height: 30px; 
+	color: #666; 
+	font-size: 12px; 
+	text-align: center;
+}
+.foot a {
+	color: #0074EA;
 }
