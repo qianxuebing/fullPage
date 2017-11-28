@@ -565,7 +565,250 @@ a {
 	margin: 0 auto;
 	overflow: hidden;
 }
+.pagethree a{
+	color: #8a5e25; 
+	float: left; 
+	position: absolute;
+	display: inline-block; 
+	white-space: nowrap
+}
+.pagethree a:hover{
+	color: #d58116;
+}
+.pagethree-1 {
+	padding-right: 37px;
+	background: url(../img/num-renwu.png) 61px 4px no-repeat;
+	left: 90px;
+	top: -180px;
+	-webkit-transition: all 0.5s;
+}
 
+.active .pagethree-1 {
+	left: 90px;
+	top: 68px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-2 {
+	padding-right: 37px;
+	background: url(../img/num-renwu.png) 61px -103px no-repeat;
+	left: 90px;
+	top: -180px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-2 {
+	left: 90px;
+	top: 93px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-3 {
+	padding-right: 37px;
+	background: url(../img/num-renwu.png) 151px -185px no-repeat;
+	left: 0px;
+	top: -180px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-3 {
+	left: 0px;
+	top: 113px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-4 {
+	padding-left: 37px;
+	background: url(../img/num-renwu.png) 0px -312px no-repeat;
+	left: 1280px;
+	top: 203px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-4 {
+	left: 235px;
+	top: 203px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-5 {
+	padding-left: 37px;
+	background: url(../img/num-renwu.png) 0px -404px no-repeat;
+	left: 1280px;
+	top: 227px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-5 {
+	left: 235px;
+	top: 227px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-6 {
+	padding-left: 37px;
+	background: url(../img/num-renwu.png) 0px -426px no-repeat;
+	left: 1080px;
+	top: 290px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-6{
+	left: 235px;
+	top: 290px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-7 {
+	padding-left: 37px;
+	background: url(../img/num-renwu.png) 0px -404px no-repeat;
+	left: -300px;
+	top: 317px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-7 {
+	left: 100px;
+	top: 317px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-8 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -762px no-repeat;
+	left: -300px;
+	top: 533px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-8 {
+	left: 149px;
+	top: 533px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-9 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -901px no-repeat;
+	left:-300px;
+	top: 533px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-9 {
+	left: 149px;
+	top: 563px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-10 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -1043px no-repeat;
+	left: -300px;
+	top: 533px;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pagethree-10 {
+	left: 149px;
+	top: 593px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-11 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -520px no-repeat;
+	left: 1370px;
+	top: 383px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagethree-11 {
+	left: 786px;
+	top: 383px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-12 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -648px no-repeat;
+	left: 1370px;
+	top: 450px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagethree-12 {
+	left: 786px;
+	top: 450px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-13 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -648px no-repeat;
+	left: 1370px;
+	top: 480px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagethree-13 {
+	left: 786px;
+	top: 480px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-14 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -1185px no-repeat;
+	left: 1370px;
+	top: 510px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagethree-14 {
+	left: 786px;
+	top: 510px;
+	-webkit-transition: all 1s ease;
+}
+.pagethree-15 {
+	padding-left: 47px;
+	background: url(../img/num-renwu.png) 0px -1185px no-repeat;
+	left: 1370px;
+	top: 540px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagethree-15 {
+	left: 786px;
+	top: 540px;
+	-webkit-transition: all 1s ease;
+}
+.guomu{
+	left: 200px;
+	top: -180px;
+	-webkit-transition: all 0.5s;	
+}
+.active .guomu{
+	left: 200px;
+	top: 10px;
+	-webkit-transition: all 1s ease;
+}
+.zhuli{
+	left: 980px;
+	top: 77px;
+	-webkit-transition: all 0.5s;	
+}
+.active .zhuli{
+	left: 600px;
+	top: 77px;
+	-webkit-transition: all 1s ease;
+}
+.xiaohuangren{
+	left: 980px;
+	top: 366px;
+	-webkit-transition: all 0.5s;	
+}
+.active .xiaohuangren{
+	left:290px;
+	top: 366px;
+	-webkit-transition: all 1s ease;
+}
+.sinuodeng{
+	left: -300px;
+	top: 387px;
+	-webkit-transition: all 0.5s;	
+}
+.active .sinuodeng{
+	left:149px;
+	top: 387px;
+	-webkit-transition: all 1s ease;
+}
 
 /*第四页*/
 
