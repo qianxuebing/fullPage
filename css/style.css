@@ -825,7 +825,240 @@ a {
 	margin: 0 auto;
 	overflow: hidden;
 }
-
+.pagefour a{
+	 color: #535353; 
+	 float: left; 
+	 position: absolute; 
+	 display: inline-block; 
+	 white-space: nowrap
+}
+.pagefour a:hover{
+	color: #bababa ;
+}
+.wumai{
+	left: 156px;
+	top: -175px;
+	-webkit-transition: all 0.5s;	
+}
+.active .wumai{
+	left: 156px;
+	top: 10px;
+	-webkit-transition: all 1s ease;	
+}
+.dama{
+	left: -405px;
+	top: 186px;
+	-webkit-transition: all 0.5s;	
+}
+.active .dama{
+	left: 155px;
+	top: 186px;
+	-webkit-transition: all 1s ease;	
+}
+.da{
+	left: 980px;
+	top: 186px;
+	-webkit-transition: all 0.5s;	
+}
+.active .da{
+	left: 675px;
+	top: 186px;
+	-webkit-transition: all 1s ease;	
+}
+.hengda{
+	left: 507px;
+	top: 850px;
+	-webkit-transition: all 0.5s;	
+}
+.active .hengda{
+	left: 507px;
+	top: 494px;
+	-webkit-transition: all 1s ease;	
+}
+.pagefour-1 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px 22px no-repeat;
+	left: 450px;
+	top: -175px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-1 {
+	left: 450px;
+	top: 51px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-2 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -118px no-repeat;
+	left: 450px;
+	top: -175px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-2 {
+	left: 450px;
+	top: 110px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-3 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -118px no-repeat;
+	left: 450px;
+	top: -175px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-3 {
+	left: 450px;
+	top: 140px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-4 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -595px no-repeat;
+	left: 980px;
+	top: 228px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-4 {
+	left: 450px;
+	top: 228px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-5 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -595px no-repeat;
+	left: 980px;
+	top: 258px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-5 {
+	left: 450px;
+	top: 258px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-6 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -1002px no-repeat;
+	left: 980px;
+	top: 288px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-6 {
+	left: 450px;
+	top: 288px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-7 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -723px no-repeat;
+	left: 980px;
+	top: 340px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-7{
+	left: 450px;
+	top: 340px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-8 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -697px no-repeat;
+	left: 980px;
+	top: 363px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-8{
+	left: 450px;
+	top: 363px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-9 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -723px no-repeat;
+	left: 980px;
+	top: 428px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-9{
+	left: 450px;
+	top: 428px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-10 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -206px no-repeat;
+	left: -405px;
+	top: 369px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-10{
+	left: 162px;
+	top: 369px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-11 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -344px no-repeat;
+	left: -405px;
+	top: 434px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-11{
+	left: 162px;
+	top: 434px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-12 {
+	padding-left: 47px;
+	background: url(../img/num-shehui.png) 0px -471px no-repeat;
+	left: -405px;
+	top: 464px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-12{
+	left: 162px;
+	top: 464px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-13 {
+	padding-right: 47px;
+	background: url(../img/num-shehui.png)  438px -859px no-repeat;
+	left: 15px;
+	top: 850px;
+	font-size: 48px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-13{
+	left: 15px;
+	top: 520px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-14 {
+	padding-right: 47px;
+	background: url(../img/num-shehui.png) 78px -879px no-repeat;
+	left: 376px;
+	top: 1050px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-14{
+	left: 376px;
+	top: 585px;
+	-webkit-transition: all 1s ease;
+}
+.pagefour-15 {
+	padding-right: 47px;
+	background: url(../img/num-shehui.png) 97px -879px no-repeat;
+	left: 376px;
+	top: 1050px;
+	-webkit-transition: all 0.5s;
+}
+.active .pagefour-15{
+	left: 357px;
+	top: 612px;
+	-webkit-transition: all 1s ease;
+}
 
 /*第五页*/
 
