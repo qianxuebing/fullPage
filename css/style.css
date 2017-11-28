@@ -55,18 +55,193 @@ a {
 
 #fullpage .section:first-child {	
 	background-image: url(../img/bg2.jpg);
+	background-size: cover;
 }
 .pageone{
+	width: 1280px;
+	height: 840px;
 	position: relative;
 	margin: 0 auto;
+	
 }
 .pageone span{
 	position: absolute;
 }
+
+.pageone-1{
+	width: 79px;
+	height: 75px;
+	top: -455px;
+	left: -501px;
+	background-image: url(../img/shi1.png);
+	z-index: 2;
+	-webkit-transition: all 0.5s;
+}
+
+.active .pageone-1{
+	top: 270px;
+	left: 430px;
+	-webkit-transition:all 1s  ease;	
+}
+
+.pageone-2{
+	width: 276px;
+	height: 140px;
+	top: -359px;
+	left: 1387px;
+	background-image: url(../img/shi2.png);
+	-webkit-transition: all 0.5s;	
+}
+.active .pageone-2{
+	top: 320px;
+	left: 370px;
+	-webkit-transition:all 1s  ease;
+}
+
+.pageone-3{
+	width: 173px;
+	height: 233px;
+	top: -359px;
+	left: -619px;
+	background-image: url(../img/shi3.png);
+	-webkit-transition: all 0.5s;	
+	
+}
+
+.active .pageone-3{
+	top: 365px;
+	left: 360px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-4{
+	width: 286px;
+	height: 142px;
+	top: -259px;
+	left: -1398px;
+	background-image: url(../img/shi4.png);
+	-webkit-transition: all 0.5s;	
+	
+}
+
+.active .pageone-4{
+	top: 465px;
+	left: 380px;
+	-webkit-transition:all 1s  ease;	
+}
+
+.pageone-5{
+	width: 92px;
+	height: 90px;
+	top: -589px;
+	left: -327px;
+	background-image: url(../img/ji1.png);
+	-webkit-transition: all 0.5s;	
+	
+}
+.active .pageone-5{
+	top:130px;
+	left: 680px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-6{
+	width: 127px;
+	height: 234px;
+	top: -487px;
+	left: 1648px;
+	background-image: url(../img/ji2.png);
+	-webkit-transition: all 0.5s;	
+	
+}
+.active .pageone-6{
+	top: 234px;
+	left: 656px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-7{
+	width: 195px;
+	height: 293px;
+	top: -488px;
+	left: -244px;
+	background-image: url(../img/ji3.png);
+	-webkit-transition: all 0.5s;		
+}
+.active .pageone-7{
+	top: 234px;
+	left: 764px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-8{
+	width: 68px;
+	height: 98px;
+	top: -213px;
+	left: 1686px;
+	background-image: url(../img/2013-2.png);
+	-webkit-transition: all 0.5s;		
+}
+.active .pageone-8{
+	top: 515px;
+	left: 685px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-9{
+	width: 71px;
+	height: 97px;
+	top: -189px;
+	left: -266px;
+	background-image: url(../img/2013-0.png);
+	z-index:2;
+	-webkit-transition: all 0.5s;		
+}
+.active .pageone-9{
+	top: 535px;
+	left: 735px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-10{
+	width: 40px;
+	height: 99px;
+	top: -210px;
+	left: 1792px;
+	background-image: url(../img/2013-1.png);
+	-webkit-transition: all 0.5s;		
+}
+.active .pageone-10{
+	top: 515px;
+	left: 800px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-11{
+	width: 66px;
+	height: 97px;
+	top: -207px;
+	left: -173px;
+	background-image: url(../img/2013-3.png);
+	-webkit-transition: all 0.5s;		
+}
+.active .pageone-11{
+	top: 515px;
+	left: 840px;
+	-webkit-transition:all 1s  ease;	
+}
+.pageone-12{
+	width: 363px;
+	height: 45px;
+	top: -106px;
+	left: 1462px;
+	background-image: url(../img/slogen.png);
+	-webkit-transition: all 0.5s;			
+}
+.active .pageone-12{
+	top: 617px;
+	left: 470px;
+	-webkit-transition:all 1s  ease;	
+}
+
 /*第二页*/
 
 #fullpage .section:nth-child(2) {
 	background-image: url(../img/bg-kj_4d6c383.png);
+	background-size: cover;
 }
 
 
@@ -74,6 +249,7 @@ a {
 
 #fullpage .section:nth-child(3) {
 	background-image: url(../img/renwu-bg_c26f167.png);
+	background-size: cover;
 }
 
 
@@ -81,6 +257,7 @@ a {
 
 #fullpage .section:nth-child(4) {
 	background-image: url(../img/bj-so_ff09f3c.png);
+	background-size: cover;
 }
 
 
@@ -88,6 +265,7 @@ a {
 
 #fullpage .section:nth-child(5) {
 	background-image: url(../img/bj-net_3cad4e6.png);
+	background-size: cover;
 }
 
 
