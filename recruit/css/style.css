@@ -91,3 +91,13 @@ a img{
 	text-align: center;
 	top:2rem;
 }
+
+/*第三页 start*/
+.s3{
+	background-image: url(../img/o_1bt23us91pt31vv1mc01n29oabs.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.s3 h1{
+	font-size: 0.25rem;
+}
