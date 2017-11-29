@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="js/jquery.fullpage.js"></script>
 		<title>招聘</title>
 		<style type="text/css">
-			html{
+			html {
 				font-size: calc(100vw/3.2);
 			}
 		</style>
@@ -20,12 +20,17 @@
 	<body>
 		<div id="fullpage">
 			<div class="section s1">
-				<img class="text1" src="img/o_1bt78n3c91dutok51hfd14hf1kj11d.png"/>
-				<img class="text2" src="img/o_1bt78pb0v12k0ro6tfqvmbnl1p.png"/>
-				<img class="text3" src="img/o_1bt7a0eob2cq7615lk1kuu1taa25.png"/>
+				<img class="text1" src="img/o_1bt78n3c91dutok51hfd14hf1kj11d.png" />
+				<img class="text2" src="img/o_1bt78pb0v12k0ro6tfqvmbnl1p.png" />
+				<img class="text3" src="img/o_1bt7a0eob2cq7615lk1kuu1taa25.png" />
 			</div>
 			<div class="section s2">
-
+				<h1 class="text1">毕业了</h1>
+				<h1 class="text2">拿什么</h1>
+				<h1 class="text3">拯救</h1>
+				<h1 class="text4">无处</h1>
+				<h1 class="text5">安放的</h1>
+				<h1 class="text6">青春</h1>
 			</div>
 			<div class="section s3">
 
@@ -96,13 +101,43 @@
 					// 懒加载
 					lazyLoading: true,
 					// 离开
-					onLeave: function(index, nextIndex, direction) {
-						
+					onLeave: function(index, nextIndex, direction) {				
+							$(".s2").css("background-image", "url(img/o_1bto7kpsd1jqe16j1118ogg7pfnl.gif)");
+							$(".s2 h1").hide();
 					},
 					// 加载完成
 					afterLoad: function(anchorLink, index) {
-						
-					
+						if(index == 2) {
+							setTimeout(function(){
+								$(".s2").css("background-image","url(img/o_1bt23us91pt31vv1mc01n29oabs.jpg)");
+							},1500);
+							setTimeout(function() {
+								$(".s2 .text1").show().addClass("animated flipInY");
+							}, 1600);
+
+							setTimeout(function() {
+								$(".s2 .text1").hide();
+								$(".s2 .text2").show().addClass("animated rotateIn");
+							}, 2600);
+							setTimeout(function() {
+								$(".s2 .text2").hide();
+								$(".s2 .text3").show().addClass("animated zoomIn");
+							}, 3600);
+							setTimeout(function() {
+								$(".s2 .text3").hide();
+								$(".s2 .text4").show().addClass("animated jackInTheBox");
+							}, 4600);
+
+							setTimeout(function() {
+								$(".s2 .text4").hide();
+								$(".s2 .text5").show().addClass("animated lightSpeedIn");
+							}, 5600);
+							setTimeout(function() {
+								$(".s2 .text5").hide();
+								$(".s2 .text6").show().addClass("animated flash infinite");
+							}, 6600);
+						}
+
 					}
 				});
 			});
