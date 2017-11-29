@@ -1,9 +1,113 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/animate-webkit.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/jquery.fullpage.js"></script>
+		<title>招聘</title>
+		<style type="text/css">
+			html{
+				font-size: calc(100vw/3.2);
+			}
+		</style>
 	</head>
+
 	<body>
+		<div id="fullpage">
+			<div class="section s1">
+				<img class="text1" src="img/o_1bt78n3c91dutok51hfd14hf1kj11d.png"/>
+				<img class="text2" src="img/o_1bt78pb0v12k0ro6tfqvmbnl1p.png"/>
+				<img class="text3" src="img/o_1bt7a0eob2cq7615lk1kuu1taa25.png"/>
+			</div>
+			<div class="section s2">
+
+			</div>
+			<div class="section s3">
+
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					//Navigation
+					lockAnchors: false,
+					/** 锚点**/
+					anchors: ['p1', 'p2', 'p3', 'p4', 'p5'],
+					/**导航*/
+					navigation: true,
+					/*导航位置*/
+					navigationPosition: 'right',
+					/*导航提示文字*/
+					navigationTooltips: ['第一页', '第二页', '第三页', '第四页', '第五页'],
+					/*是否显示当前section的提示文字*/
+					showActiveTooltip: false,
+					/*左右滑动导航是否线是否*/
+					slidesNavigation: true,
+					/**左右滑动导航的位置*/
+					slidesNavPosition: 'top',
+
+					//Scrolling
+					css3: true,
+					// 滚动速度
+					scrollingSpeed: 0,
+					// true：分屏没有滚动条  false：不分屏有滚动条
+					autoScrolling: true,
+					// 固定到section顶部
+					fitToSection: false,
+					fitToSectionDelay: 1000,
+					// 滑动条
+					scrollBar: false,
+					// 动画效果
+					easing: 'easeInOutCubic',
+					// css3动画效果
+					easingcss3: 'ease',
+
+					// 水平循环  slide 
+					loopHorizontal: true,
+					// 上下循环
+					continuousVertical: true,
+					// 左右 循环
+					continuousHorizontal: false,
+
+					//Accessibility
+					// 键盘事件 
+					keyboardScrolling: true,
+					// 动画
+					animateAnchor: true,
+					// 是否记录history
+					recordHistory: true,
+					//Design
+					// 左右箭头
+					controlArrows: false,
+					// 垂直居中
+					verticalCentered: true,
+					// 背景色
+					sectionsColor: ['red', 'green', 'blue', 'yellow', 'pink'],
+					// 定义 上下滑动的是  .section
+					sectionSelector: '.section',
+					// 定义左右滑动 是 .slide 
+					slideSelector: '.slide',
+					// 懒加载
+					lazyLoading: true,
+					// 离开
+					onLeave: function(index, nextIndex, direction) {
+						
+					},
+					// 加载完成
+					afterLoad: function(anchorLink, index) {
+						
+					
+					}
+				});
+			});
+		</script>
+
 	</body>
+
 </html>
